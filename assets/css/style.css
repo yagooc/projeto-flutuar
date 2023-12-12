@@ -1,0 +1,80 @@
+/* Fontes e Cores */
+.container h1 {
+    font-family: 'Dosis', sans-serif;
+    color: var(--azul-escuro);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+.container a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--azul-escuro);
+}
+
+.container h1 span {
+    color: var(--violeta);
+    font-weight: 700;
+}
+
+.container p span {
+    color: var(--azul-escuro);
+    font-weight: 700;
+}
+
+/* Fim Fontes e Cores */
+
+body {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    margin-top: 64px;
+}
+
+.container img {
+    max-width: 100%;
+}
+
+.container p {
+    width: 540px;
+    height: 107px;
+    margin: 0 auto;
+}
+
+.container p .ofertas {
+    width: 626px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+
+.container #footer .line {
+    width: 391px;
+    margin: 0 auto 16px;
+    border: 0.5px solid var(--cinza-claro);
+}
+
+.container #footer a+a {
+    margin-left: 42px;
+}
+
+.imgFooter {
+    max-width: 100%;
+    height: 104px;
+    margin-top: 40px;
+}
